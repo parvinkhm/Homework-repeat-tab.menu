@@ -1,0 +1,43 @@
+
+i{
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.tab-menu .tab-header{
+    background-color: blueviolet;
+    width: 600px;
+    height: 60px;
+    color: white;
+}
+
+.tab-menu .tab-header .item{
+    width: calc(100%/3);
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.active-tab{
+    background-color: white;
+    color: blueviolet;
+}
+
+.tab-menu .tab-content{
+    background-color: grey;
+    width: 600px;
+    padding: 20px;
+    color: white;
+}
+
+.tab-menu .tab-content .item{
+
+}
+
+
